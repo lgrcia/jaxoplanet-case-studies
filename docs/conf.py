@@ -50,6 +50,6 @@ html_theme_options = {
     "use_download_button": True,
     "use_sidenotes": True,
 }
-nb_execution_mode = "off"
+nb_execution_mode = "cache"
 nb_execution_excludepatterns = []
 nb_execution_timeout = -1

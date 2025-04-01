@@ -9,6 +9,11 @@ Jupyter notebooks, and you can download the
 notebook or launch it using [Binder](https://mybinder.org) using the menus at the top
 right of each case study.
 
+```{note}
+Most of these tutorials are inspired or directly adapted from the 
+[exoplanet case studies](https://gallery.exoplanet.codes/)!
+```
+
 For more information about `jaxoplanet`, check out the main documentation page
 at [jaxoplanet](https://jax.exoplanet.codes/en/latest/).
 
@@ -27,8 +32,8 @@ on GitHub so that we can all learn together. Each case study is an example of a 
 application of the [jaxoplanet](https://jax.exoplanet.codes/en/latest/) 
 
 🐛 If you run into bugs when executing these case studies (or variations on
-them) on your own computer, [open an issue on the exoplanet GitHub repo]
-(https://github.com/exoplanet-dev/jaxoplanet/discussions).
+them) on your own computer, 
+[open an issue on the exoplanet GitHub repo](https://github.com/exoplanet-dev/jaxoplanet/discussions).
 
 ```
 
@@ -40,5 +45,7 @@ them) on your own computer, [open an issue on the exoplanet GitHub repo]
 
 notebooks/astrometric.ipynb
 notebooks/transit.ipynb
+notebooks/mw_transit.ipynb
+notebooks/ttv.ipynb
 
 ```
