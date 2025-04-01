@@ -1,0 +1,46 @@
+[project]
+name = "jaxoplanet-case-studies"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jaxoplanet", 
+    "matplotlib", 
+    "jaxopt", 
+    "numpyro", 
+    "numpyro-ext", 
+    "ipykernel", 
+    "pandas", 
+    "arviz", 
+    "corner",
+    "astropy",
+    "myst-nb",
+    "sphinx-book-theme",
+    "sphinx-design",
+    "ipywidgets",
+]
+
+[tool.black]
+target-version = ["py310"]
+line-length = 88
+
+[tool.ruff]
+line-length = 89
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F", "I", "E", "W", "YTT", "B", "Q", "PLE", "PLR", "PLW", "UP"]
+ignore = [
+    "B023",    # Allow using global variables in lambdas
+    "E741",    # Allow ambiguous variable names (e.g. "l" in starry)
+    "PLR0912", # Allow many branches
+    "PLR0913", # Allow many arguments in function call
+    "PLR0915", # Allow many statements
+    "PLR2004", # Allow magic numbers in comparisons
+]
+# exclude = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["jaxoplanet"]
+combine-as-imports = true
